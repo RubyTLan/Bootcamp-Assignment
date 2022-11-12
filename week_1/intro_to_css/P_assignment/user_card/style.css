@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family:'Roboto', sans-serif;
+}
+
+.blue {
+    width:760px;
+    background-color:darkcyan ;
+    height: 100px;
+    margin:auto;
+    margin-top:60px;
+}
+
+.white {
+    width:676px;
+    border-left:2px solid grey;
+    border-bottom:2px solid grey;
+    border-right:2px solid grey;
+    height:200px;
+    margin:auto;
+    padding:40px;
+    /* padding:40px; */
+
+}
+
+#profile {
+    width:100px;
+
+    background-color: white;
+    margin-top:40px;
+    margin-left: 35px;
+    left:190px;
+    border:4px solid lightgrey;
+    border-radius: 50%;
+    padding:2px;
+}
+
+#location {
+    width: 15px;
+}
+
+#gear {
+    width: 20px;
+}
+h1,h2,h3{
+    margin:20px 20px 20px 0;
+}

@@ -1,0 +1,183 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Sono', sans-serif;
+}
+
+.website-header {
+    background-color: black;
+    color:aliceblue;
+    display:flex;
+    padding: 15px 100px;
+    justify-content: space-between;
+}
+
+.navbar {
+    display:flex;
+    align-items: center;
+    width:730px;
+    justify-content: space-between;
+}
+
+.navbar-links {
+    display:flex;
+    list-style: none;
+    font-size: 20px;
+}
+
+li {
+    margin:8px;
+}
+
+.navbar-signout {
+    font-size:20px ;
+    background-color: aqua;
+    color:aliceblue;
+    padding:3px;
+}
+
+.main {
+    margin:20px 100px;
+    height:700px;
+    /* background-color:lightgrey; */
+    display:flex;
+    justify-content: space-between;
+}
+
+.col-1 {
+    width:500px;
+    height:700px;
+    /* background-color:blue; */
+}
+
+
+.user-card {
+    /* background-color:bisque; */
+    height:400px;
+    margin-bottom: 40px;
+    border:3px solid lightgray;
+
+}
+.usercard-header {
+    background-color: aqua;
+    height:110px;
+    /* border:5px solid aqua; */
+}
+#photo1 {
+    border-radius: 50%;
+    margin-top:40px;
+    margin-left:30px;
+}
+.photo1name {
+    margin-top:70px;
+}
+
+.photo1name,
+.photo1-h2,
+.photo1-h3 {
+    margin-left:30px;
+    margin-bottom: 15px;
+}
+.education {
+    /* background-color:bisque; */
+    height:260px;
+    border:3px solid lightgray;
+}
+.header {
+    background-color:grey;
+    padding:20px 30px;
+    color:white;
+}
+.education-h2 {
+    margin:30px 30px;
+    font-size:20px;
+}
+span{
+    color:grey;
+}
+
+.col-2 {
+    width:330px;
+    height:700px;
+    /* background-color:blue; */
+}
+
+.connection-requests {
+    height:230px;
+    /* background-color:bisque; */
+    margin-bottom: 40px;
+    border:3px solid lightgray;
+}
+
+.button2 {
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    border: none;
+}
+.profile-row {
+    display:flex;
+    /* background-color: aqua; */
+    padding:15px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.avatar-name {
+    display:flex;
+    align-items:centre;
+}
+
+.small-avatar {
+    border-radius: 50%;
+    width:55px;
+    margin-right:10px;
+}
+.icon1 {
+    width:40px;
+    height:40px;
+}
+.icon2 {
+    width:40px;
+    height:40px;
+    margin-left:5px;
+}
+
+
+.your-connections{
+    height: 430px;
+    /* background-color:bisque; */
+    border:3px solid lightgray;
+}
+
+.button500{
+    width:60px;
+    height:30px;
+    border-radius: 50%;
+    border:none;
+}
+
+#location {
+    width: 15px;
+}
+
+#gear {
+    width: 20px;
+}
+
+.connections{
+    padding:10px;
+}
+tr{
+    line-height:40px;
+}
+
+
+
+
+
+.viewmore{
+    height:30px;
+    border-Top:3px solid lightgray;
+    padding:10px;
+}

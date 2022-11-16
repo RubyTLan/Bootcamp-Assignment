@@ -1,0 +1,93 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:'Dosis', sans-serif ;
+}
+
+.header {
+    display:flex;
+    height:150px;
+    align-items: center;
+    background-color:lightgray;
+    margin-left:300px;
+    margin-right:300px;
+    justify-content: space-between;
+
+    padding:0px 85px;
+
+}
+input{
+    font-size: 50px;
+    color:lightgray;
+    border:3px solid black;
+}
+.login{
+    background-color: blue;
+    color:white;
+    box-shadow: 3px 3px  black;
+    padding:5px 20px;
+}
+.main{
+    display:flex;
+    margin-left:300px;
+    margin-right:300px;
+}
+.col-1{
+    margin-right:50px;
+}
+.col-2{
+    height: 200px;
+    border: 3px solid black;
+    margin-top:50px;
+    padding:30px;
+}
+.ninjia1,.ninjia2 {
+    display:flex;
+    border: 3px solid black;
+    margin-top:50px;
+    margin-bottom:50px;
+    justify-content: space-between;
+    align-items: center;
+    padding:50px;
+
+}
+.ninjia1-col1,.ninjia2-col1 {
+    flex:1;
+    text-align: center;
+}
+.ninjia1-col2,.ninjia2-col2 {
+    flex:3;
+    margin-left:40px;
+}
+
+h1{
+    font-size: 70px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+/* .ninja1, .ninja2 {
+    display:flex;
+    align-items: center;
+} */
+
+button {
+    border: 3px solid black;
+    color:black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    box-shadow: 3px 3px;
+    }
+
+.buttonlikes{
+    background-color: yellow;
+    padding:10px 20px;
+}
+.adddefinition{
+    background-color: green;
+    padding:10px 30px;
+    margin:30px;
+}
